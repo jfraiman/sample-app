@@ -43,7 +43,7 @@ SampleApp::Application.configure do
   # config.action_controller.asset_host = "http://assets.example.com"
 
   # precompile our special css files
-  config.assets.precompile += %w( blueprint/screen.css blueprint/print.css )
+  # config.assets.precompile += %w( blueprint/screen.css blueprint/print.css )
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
